@@ -2,60 +2,79 @@ export default function Home() {
   return (
     <main
       style={{
-        fontFamily: "Arial, sans-serif",
-        backgroundColor: "#0f172a",
-        color: "#e5e7eb",
+        fontFamily: "Arial, Helvetica, sans-serif",
+        backgroundColor: "#f8fafc",
+        color: "#0f172a",
         minHeight: "100vh",
-        padding: "40px 20px",
+        padding: "60px 20px",
       }}
     >
-      {/* HERO */}
-      <p style={{ marginTop: "15px", color: "#94a3b8" }}>
-  Empresa angolana especializada em soluções tecnológicas,
-  segurança eletrónica e consultoria digital.
-</p>
-      <section style={{ maxWidth: "900px", margin: "0 auto 60px auto" }}>
-        <h1 style={{ fontSize: "42px", marginBottom: "10px" }}>
+      {/* HEADER */}
+      <section style={{ maxWidth: "1000px", margin: "0 auto 60px auto" }}>
+        <h1 style={{ fontSize: "40px", marginBottom: "10px" }}>
           Kap Corp. Lda
         </h1>
-        <p style={{ fontSize: "18px", color: "#cbd5f5" }}>
+        <p style={{ fontSize: "18px", color: "#334155" }}>
           Soluções Tecnológicas, Segurança e Inovação
+        </p>
+        <p style={{ marginTop: "15px", color: "#475569", maxWidth: "700px" }}>
+          A Kap Corp. Lda é uma empresa angolana especializada em serviços
+          tecnológicos, segurança eletrónica e consultoria técnica,
+          oferecendo soluções fiáveis para empresas e instituições.
         </p>
       </section>
 
       {/* SERVIÇOS */}
-      <section style={{ maxWidth: "900px", margin: "0 auto 60px auto" }}>
-        <h2 style={{ fontSize: "28px", marginBottom: "20px" }}>
-          Nossos Serviços
+      <section style={{ maxWidth: "1000px", margin: "0 auto 60px auto" }}>
+        <h2 style={{ fontSize: "26px", marginBottom: "20px" }}>
+          Serviços
         </h2>
-        <ul style={{ lineHeight: "1.8" }}>
-          <li>💻 Serviços Informáticos</li>
-          <li>🔐 Segurança Eletrónica</li>
-          <li>🌐 Redes e Infraestrutura</li>
-          <li>📊 Consultoria Tecnológica</li>
+        <ul style={{ lineHeight: "1.9", color: "#1e293b" }}>
+          <li>Serviços Informáticos e Suporte Técnico</li>
+          <li>Segurança Eletrónica e Digital (CCTV, Controlo de Acessos)</li>
+          <li>Redes e Infraestrutura (LAN, WAN, Wi-Fi Corporativo)</li>
+          <li>Consultoria Tecnológica e Implementação de Projetos</li>
         </ul>
       </section>
 
+      {/* COMERCIAL */}
+      <section style={{ maxWidth: "1000px", margin: "0 auto 60px auto" }}>
+        <h2 style={{ fontSize: "26px", marginBottom: "20px" }}>
+          Comercial e Parcerias
+        </h2>
+        <p style={{ color: "#334155", maxWidth: "800px" }}>
+          Atuamos no desenvolvimento de soluções empresariais,
+          gestão de clientes e construção de parcerias estratégicas,
+          identificando oportunidades de negócio alinhadas às
+          necessidades do mercado.
+        </p>
+      </section>
+
       {/* CONTACTOS */}
-      <section style={{ maxWidth: "900px", margin: "0 auto" }}>
-  <h2>Contactos</h2>
-  <p>
-    📞{" "}
-    <a
-      href="https://wa.me/244956100044"
-      target="_blank"
-      style={{ color: "#38bdf8", textDecoration: "none" }}
-    >
-      +244 956 100 044 (WhatsApp)
-    </a>
-  </p>
-  <p>
-    ✉️{" "}
-    <a
-      href="mailto:kap.corp.lda@gmail.com"
-      style={{ color: "#38bdf8", textDecoration: "none" }}
-    >
-      kap.corp.lda@gmail.com
-    </a>
-  </p>
-</section>
+      <section style={{ maxWidth: "1000px", margin: "0 auto" }}>
+        <h2 style={{ fontSize: "26px", marginBottom: "20px" }}>
+          Contactos
+        </h2>
+        <p>📞 +244 956 100 044</p>
+        <p>📧 kap.corp.lda@gmail.com</p>
+        <p style={{ marginTop: "15px" }}>
+          Atendimento profissional e personalizado.
+        </p>
+      </section>
+
+      {/* FOOTER */}
+      <footer
+        style={{
+          marginTop: "80px",
+          borderTop: "1px solid #e2e8f0",
+          paddingTop: "20px",
+          fontSize: "14px",
+          color: "#64748b",
+          textAlign: "center",
+        }}
+      >
+        © {new Date().getFullYear()} Kap Corp. Lda — Todos os direitos reservados
+      </footer>
+    </main>
+  );
+}
