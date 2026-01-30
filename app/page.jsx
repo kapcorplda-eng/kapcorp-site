@@ -29,12 +29,15 @@ export default function Home() {
             flexWrap: "wrap",
           }}
         >
-          <img src="/logo.png" alt="Kap Corp. Lda" style={{ height: 50 }} />
-          <div>
-            <h1 style={{ fontSize: "42px", marginBottom: "8px" }}>
-              Kap Corp. Lda
-            </h1>
-            <p style={{ color: "#94a3b8" }}>
+          import Image from "next/image";
+
+<Image
+  src="/logo.png"
+  alt="Kap Corp. Lda"
+  width={160}
+  height={60}
+  priority
+/>
               Soluções Tecnológicas • Segurança • Inovação
             </p>
           </div>
