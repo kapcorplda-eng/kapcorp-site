@@ -12,7 +12,7 @@
       <section style={{ maxWidth: "900px", margin: "0 auto", textAlign: "center" }}>
         <h1 style={{ fontSize: "42px", marginBottom: "10px", color: "#38bdf8" }}>
           Kap Corp. Lda
-        </h1><h1>Kap Corp. Lda</h1> {/* update */}
+        </h1><h1> {/* update */}
         <p style={{ fontSize: "18px", marginBottom: "30px" }}>
           Soluções Tecnológicas, Segurança e Inovação
         </p>
