@@ -51,4 +51,17 @@ export default function Servicos() {
                 padding: "30px",
                 borderRadius: "10px",
                 border: "1px solid #1f2933",
-                boxShadow: "0 10px 25px rgba(0,0,0,0.25
+                boxShadow: "0 10px 25px rgba(0,0,0,0.25)",
+              }}
+            >
+              <h3 style={{ marginBottom: "10px" }}>{item.title}</h3>
+              <p style={{ fontSize: "14px", color: "#9ca3af" }}>
+                {item.desc}
+              </p>
+            </div>
+          ))}
+        </div>
+      </section>
+    </main>
+  );
+}
