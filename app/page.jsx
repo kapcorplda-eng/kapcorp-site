@@ -22,6 +22,17 @@ export default function Home() {
         />
       </div>
 
+      {/* TEXTO */}
+      <h1 style={{ fontSize: "40px", textAlign: "center" }}>
+        Kap Corp. Lda
+      </h1>
+
+      <p style={{ textAlign: "center", fontSize: "18px" }}>
+        Soluções Tecnológicas • Segurança Eletrónica • Consultoria
+      </p>
+    </main>
+  );
+}
       {/* HERO */}
       <h1 style={{ fontSize: "40px", textAlign: "center" }}>
         Kap Corp. Lda
