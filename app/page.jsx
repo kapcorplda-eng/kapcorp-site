@@ -34,10 +34,24 @@ export default function Home() {
 
       {/* CONTACTOS */}
       <section style={{ maxWidth: "900px", margin: "0 auto" }}>
-        <h2>Contactos</h2>
-        <p>📞 +244 956 100 044</p>
-        <p>✉️ kap.corp.lda@gmail.com</p>
-      </section>
-    </main>
-  );
-}
+  <h2>Contactos</h2>
+  <p>
+    📞{" "}
+    <a
+      href="https://wa.me/244956100044"
+      target="_blank"
+      style={{ color: "#38bdf8", textDecoration: "none" }}
+    >
+      +244 956 100 044 (WhatsApp)
+    </a>
+  </p>
+  <p>
+    ✉️{" "}
+    <a
+      href="mailto:kap.corp.lda@gmail.com"
+      style={{ color: "#38bdf8", textDecoration: "none" }}
+    >
+      kap.corp.lda@gmail.com
+    </a>
+  </p>
+</section>
