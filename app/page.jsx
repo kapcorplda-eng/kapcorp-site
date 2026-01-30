@@ -1,3 +1,8 @@
+<img
+  src="/logo.png"
+  alt="Kap Corp. Lda"
+  style={{ height: 50, marginBottom: 16 }}
+/>
 export default function Home() {
   return (
     <>
