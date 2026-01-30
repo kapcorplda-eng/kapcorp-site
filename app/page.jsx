@@ -12,7 +12,7 @@ export default function Home() {
       }}
     >
       {/* LOGO */}
-      <div style={{ textAlign: "center", marginBottom: "40px" }}>
+      <div style={{ textAlign: "center", marginBottom: "20px" }}>
         <Image
           src="/logo.png"
           alt="Kap Corp. Lda"
@@ -26,9 +26,13 @@ export default function Home() {
       <h1 style={{ fontSize: "40px", textAlign: "center" }}>
         Kap Corp. Lda
       </h1>
-      <p style={{ textAlign: "center", fontSize: "18px", opacity: 0.8 }}>
-        Soluções Tecnológicas • Segurança • Inovação
+
+      <p style={{ textAlign: "center", fontSize: "18px" }}>
+        Soluções Tecnológicas • Segurança Eletrónica • Consultoria
       </p>
+    </main>
+  );
+}
 
       {/* SOBRE */}
       <section style={{ maxWidth: "900px", margin: "60px auto" }}>
