@@ -10,6 +10,10 @@ export default function Home() {
       }}
     >
       {/* HERO */}
+      <p style={{ marginTop: "15px", color: "#94a3b8" }}>
+  Empresa angolana especializada em soluções tecnológicas,
+  segurança eletrónica e consultoria digital.
+</p>
       <section style={{ maxWidth: "900px", margin: "0 auto 60px auto" }}>
         <h1 style={{ fontSize: "42px", marginBottom: "10px" }}>
           Kap Corp. Lda
