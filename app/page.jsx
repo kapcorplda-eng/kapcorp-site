@@ -29,11 +29,7 @@ export default function Home() {
             flexWrap: "wrap",
           }}
         >
-          <img
-            src="/logo.png"
-            alt="Kap Corp. Lda"
-            style={{ height: "90px" }}
-          />
+          <img src="/logo.png" alt="Kap Corp. Lda" style={{ height: 50 }} />
           <div>
             <h1 style={{ fontSize: "42px", marginBottom: "8px" }}>
               Kap Corp. Lda
